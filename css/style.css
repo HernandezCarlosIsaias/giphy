@@ -1,0 +1,38 @@
+body {
+    /*creamos el estilo del fondo de la pagina*/
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+}
+
+#entrada {
+    /*creamos el estilo de la barra de busqueda*/
+    display: grid;
+    background-color: rgb(245, 243, 214);
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+#buscar {
+    /*creamos el estilo del boton de busqueda*/
+    display: grid;
+    background-color: rgb(245, 243, 214);
+    width: 75px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+    border-bottom-style: solid;
+    border-color: black;
+    font-size: medium;
+}
+
+#muestra {
+    display: grid;  /*le damos al contenedor el etilos de pantalla grilla*/
+    grid-template-columns: repeat(3, auto);   /*le damos al contenedor que se divida en tres columnas de tamaño automatico*/
+}
