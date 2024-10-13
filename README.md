@@ -6,7 +6,6 @@ Este proyecto tiene como objetivo utilizar la API KEY de la página GYPHY y util
 
 En la terminal de su sistema operativo, ingrese el siguiente comando:
 
-bash
 git clone https://github.com/HernandezCarlosIsaias/giphy
 
 
